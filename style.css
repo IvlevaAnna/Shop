@@ -194,6 +194,7 @@
 .sale {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .sale_box {
