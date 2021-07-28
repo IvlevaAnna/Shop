@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+.header_top_left {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #222222;
+    font-family: Lato, serif;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto 0;
+}
+
+.logo_img {
+    width: 59px;
+    height: 51px;
+    margin-right: 13px;
+}
+
+.logo_d {
+    color: #f16d7f;
+    font-family: "Lato - Black";
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+.form {
+    display: flex;
+    margin-left: 37px;
+    height: 38px;
+}
+
+.form_dropdown {
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    padding-right: 8px;
+    padding-left: 15px;
+    color: #222222;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: right;
+}
+
+.form_dropdown_b {
+    letter-spacing: 0.35px;
+}
+
+.form_input {
+    padding-right: 160px;
+    padding-left: 15px;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    color: #a4a4a4;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.form_button {
+    border: 1px solid #e6e6e6;
+    border-radius: 0 3px 3px 0;
+    padding: 12px 11px;
+    background-color: #ffffff;
+}
+
+.header_top_right {
+    display: flex;
+    justify-content: flex-end;
+}
+.cart {
+    width: 32px;
+    height: 29px;
+    text-decoration: none;
+}
+
+.button_account {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background-color: #f16d7f;
+    padding: 0 12px 0 19px;
+    border: none;
+    color: #ffffff;
+    font-family: Lato, serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+    margin-left: 26px;
+}
+
+.button_account_img {
+    margin-left: 8px;
+}
+
+.header_bottom {
+    margin-top: 19px;
+    margin-bottom: 22px;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.container_header_bottom {
+    width: 680px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_bottom_item {
+    text-decoration: none;
+    color: #222222;
+}
+
+.slider {
+    display: flex;
+    background: #e8e8e8;
+    margin-bottom: 98px;
+}
+
+.slider_img {
+    position: relative;
+}
+
+.slider_name {
+    position: absolute;
+    margin-top: 224px;
+}
+
+.slider_text {
+    padding-left: 12px;
+    border-left: 12px solid #f16d7f;
+}
+
+.slider_text_h1 {
+    font-size: 60px;
+    line-height: 43px;
+    letter-spacing: 1.5px;
+}
+
+.slider_text_h2 {
+    margin-top: 50px;
+    color: #222222;
+    font-family: "Lato - Black", serif;
+    line-height: 0;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.slider_text_colored {
+    color: #f16d7f;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.sale_item {
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sale_item_bgc {
+    background-color: #dadad2;
+    height: 261px;
+}
+
+.sale_img {
+    position: relative;
+}
+
+.sale_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+    position: absolute;
+    min-width: 125px;
+    padding: 16px 20px 16px 19px;
+    background-color: #ffffff;
+}
+
+.sale_text_h3 {
+    color: #222222;
+    font-family: "Lato - Black", serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.sale_text_colored {
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
