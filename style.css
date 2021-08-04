@@ -154,10 +154,10 @@
     padding-right: 0.5em;
 }
 
+
 .button_account[open] > summary::after {
     content: url("img/button_account.png");
 }
-
 
 .menu {
     display: flex;
@@ -168,6 +168,7 @@
 .menu_list {
     position: relative;
 }
+
 
 .last:hover .menu_box {
     right: 0;
@@ -239,18 +240,21 @@
     width: 235px;
 }
 
+
 .menu_item_link {
     text-decoration: none;
     color: #646464;
     font-family: Lato, serif;
     font-size: 14px;
     font-weight: 400;
+
     display: block;
     line-height: 28px;
 }
 
 .menu_item_link:hover {
     color: #f16d7f;
+
 }
 
 .slider {
@@ -299,6 +303,7 @@
 .sale {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .sale_box {
@@ -674,6 +679,7 @@
     padding-left: 28px;
 }
 
+
 .subscribe_form_input:focus {
     outline: none;
 }
@@ -731,6 +737,7 @@
 
 .footer_top_link {
     display: block;
+
     text-decoration: none;
     color: #898989;
     font-family: Lato, serif;
