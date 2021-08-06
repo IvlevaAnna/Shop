@@ -446,6 +446,7 @@
 
 .sale {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
 }
@@ -961,4 +962,231 @@
 
 .footer_bottom_item:hover{
     background-color: #f16d7f;
+}
+
+/*Single Page Application*/
+
+.breadcrumbs {
+    width: 100%;
+    height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+}
+
+.breadcrumb_name {
+    color: #f16d7f;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.breadcrumb {
+    display: flex;
+    height: 100%;
+    align-content: center;
+}
+
+.breadcrumb-item {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.breadcrumb-item a{
+    color: #636363;
+    font-family: "Lato Light";
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #f16d7f;
+    font-family: "Lato - Bold";
+    font-weight: 700;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #636363;
+    font-family: "Lato Light";
+    font-weight: 300;
+}
+
+.card_box {
+    position: relative;
+    display: block;
+}
+
+.slider_spa {
+    background-color: #f7f7f7;
+    height: 777px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider_button {
+    width: 47px;
+    height: 47px;
+    background-color: #d8d8d8;
+    color: #ffffff;
+    font-family: "Font Awesome";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.item_card {
+    position: absolute;
+    top: 691px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.item_card_box {
+    background-color: white;
+    padding: 73px 250px 122px 250px;
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_card_text_colored {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item_card_border {
+    width: 147px;
+    height: 1px;
+    background-color: #eaeaea;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.item_card_border_colored {
+    width: 63px;
+    height: 2px;
+    background-color: #ef5b70;
+    margin: auto;
+}
+
+.item_card_h1 {
+    color: #4d4d4d;
+    font-family: "Lato - Black";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 67px;
+}
+
+.item_card_text {
+    min-width: 618px;
+    color: #5e5e5e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.item_card_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #b9b9b9;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+.item_card_info div {
+    margin-right: 44px;
+}
+.item_card_info span {
+    color: #2f2f2f;
+}
+
+.item_card_info .last {
+    margin-right: 0;
+}
+
+.h1_text {
+    padding-bottom: 43px;
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 63px;
+}
+
+.choose {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.choose_item:last-of-type {
+    margin-right: 0;
+}
+
+.choose_item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 53px;
+    color: #2f2f2f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.choose_item select, .choose_item input {
+    margin-top: 10px;
+    width: 144px;
+}
+
+.item_card_button {
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #ef5b70;
+    padding: 23px 206px;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.item_card_button img {
+    margin-right: 15px;
+}
+
+.like {
+    height: 1289px;
+    background-color: white;
 }
