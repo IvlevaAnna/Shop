@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +21,29 @@
 					<form class="form">
 						<details class="form_dropdown">
 							<summary class="form_dropdown_summary">Browse</summary>
-							...
+							<div class="browse_box">
+								<div class="browse_item">
+									<div class="menu_item_name">Women</div>
+									<a href="#" class="menu_item_link">Dresses</a>
+									<a href="#" class="menu_item_link">Tops</a>
+									<a href="#" class="menu_item_link">Sweaters/Knits</a>
+									<a href="#" class="menu_item_link">Jackets/Coats</a>
+									<a href="#" class="menu_item_link">Blazers</a>
+									<a href="#" class="menu_item_link">Denim</a>
+									<a href="#" class="menu_item_link">Leggings/Pants</a>
+									<a href="#" class="menu_item_link">Skirts/Shorts</a>
+									<a href="#" class="menu_item_link">Accessories</a>
+								</div>
+								<div class="browse_item">
+									<div class="menu_item_name">Men</div>
+									<a href="#" class="menu_item_link">Tees/Tank tops</a>
+									<a href="#" class="menu_item_link">Shirts/Polos</a>
+									<a href="#" class="menu_item_link">Sweaters</a>
+									<a href="#" class="menu_item_link">Sweatshirts/Hoodies</a>
+									<a href="#" class="menu_item_link">Blazers</a>
+									<a href="#" class="menu_item_link">Jackets/vests</a>
+								</div>
+							</div>
 						</details>
 						<input type="text" placeholder="Search for Item..."
 							   class="form_input">
@@ -28,15 +53,55 @@
 					</form>
 				</div>
 				<div class="header_top_right">
-					<a href="#" class="cart">
-						<img src="./img/Live_cart.png" alt="cart">
-					</a>
+					<div class="cart_main">
+						<a href="#" class="cart">
+							<img src="./img/Live_cart.png" alt="cart">
+						</a>
+					<div class="cart_box">
+						<a class="cart_item" href="#">
+							<div class="cart_left">
+								<img src="img/cart1.png">
+								<div class="cart_text">
+									Rebox Zane
+									<img src="img/stars.png">
+									<p class="cart_text_colored">1  x   $250</p>
+								</div>
+							</div>
+							<div class="cart_right">
+								<img src="img/close.png">
+							</div>
+						</a>
+						<a class="cart_item" href="#">
+							<div class="cart_left">
+								<img src="img/cart2.png">
+								<div class="cart_text">
+									Rebox Zane
+									<img src="img/stars.png">
+									<p class="cart_text_colored">1  x   $250</p>
+								</div>
+							</div>
+							<div class="cart_right">
+								<img src="img/close.png">
+							</div>
+						</a>
+						<div class="total">
+							<span>TOTAL</span>
+							<span>$500.00</span>
+						</div>
+
+						<div class="cart_buttons">
+							<button>Checkout</button>
+							<button>Go to cart</button>
+						</div>
+					</div>
+					</div>
 					<details class="button_account">
 						<summary class="button_account_summary">My Account</summary>
 						...
 					</details>
 				</div>
 			</div>
+		</div>
 </header>
 
 <nav>
@@ -379,98 +444,111 @@
 		<div class="items_h1">Fetured Items</div>
 		<div class="items_h2">Shop for items based on what we featured in this week</div>
 
-		<div class="items_box">
-			<a class="card" href="#">
+		<div class="items_flex">
+			<div class="card">
+				<a class="card_link" href="#">
 					<img class="card_img" src="img/card1.png">
-					<div class="card_img_hover">
-						<button class="card_button">
-							<img class="card_button_cart" src="img/cart.png">
-							<img class="card_button_add" src="img/add.png">
-						</button>
-					</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
-			<a class="card" href="#">
-				<img class="card_img" src="img/card2.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
 				<div class="card_img_hover">
 					<button class="card_button">
 						<img class="card_button_cart" src="img/cart.png">
 						<img class="card_button_add" src="img/add.png">
 					</button>
 				</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
-			<a class="card" href="#">
-				<img class="card_img" src="img/card3.png">
+			</div>
+			<div class="card">
+				<a class="card_link" href="#">
+					<img class="card_img" src="img/card2.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
 				<div class="card_img_hover">
 					<button class="card_button">
 						<img class="card_button_cart" src="img/cart.png">
 						<img class="card_button_add" src="img/add.png">
 					</button>
 				</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
-			<a class="card" href="#">
-				<img class="card_img" src="img/card4.png">
+			</div>
+			<div class="card">
+				<a class="card_link" href="#">
+					<img class="card_img" src="img/card3.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
 				<div class="card_img_hover">
 					<button class="card_button">
 						<img class="card_button_cart" src="img/cart.png">
 						<img class="card_button_add" src="img/add.png">
 					</button>
 				</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
-		</div>
-
-		<div class="items_box">
-			<a class="card" href="#">
-				<img class="card_img" src="img/card5.png">
+			</div>
+			<div class="card">
+				<a class="card_link" href="#">
+					<img class="card_img" src="img/card4.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
 				<div class="card_img_hover">
 					<button class="card_button">
 						<img class="card_button_cart" src="img/cart.png">
 						<img class="card_button_add" src="img/add.png">
 					</button>
 				</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
-			<a class="card" href="#">
-				<img class="card_img" src="img/card6.png">
+			</div>
+			<div class="card">
+				<a class="card_link" href="#">
+					<img class="card_img" src="img/card5.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
 				<div class="card_img_hover">
 					<button class="card_button">
 						<img class="card_button_cart" src="img/cart.png">
 						<img class="card_button_add" src="img/add.png">
 					</button>
 				</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
-			<a class="card" href="#">
-				<img class="card_img" src="img/card7.png">
+			</div>
+			<div class="card">
+				<a class="card_link" href="#">
+					<img class="card_img" src="img/card6.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
 				<div class="card_img_hover">
 					<button class="card_button">
 						<img class="card_button_cart" src="img/cart.png">
 						<img class="card_button_add" src="img/add.png">
 					</button>
 				</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
-			<a class="card" href="#">
-				<img class="card_img" src="img/card8.png">
+			</div>
+			<div class="card">
+				<a class="card_link" href="#">
+					<img class="card_img" src="img/card7.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
 				<div class="card_img_hover">
 					<button class="card_button">
 						<img class="card_button_cart" src="img/cart.png">
 						<img class="card_button_add" src="img/add.png">
 					</button>
 				</div>
-				<div class="card_text">Mango  People  T-shirt</div>
-				<div class="card_text_colored">$52.00</div>
-			</a>
+			</div>
+			<div class="card">
+				<a class="card_link" href="#">
+					<img class="card_img" src="img/card8.png">
+					<p class="card_text">Mango  People  T-shirt</p>
+					<p class="card_text_colored">$52.00</p>
+				</a>
+				<div class="card_img_hover">
+					<button class="card_button">
+						<img class="card_button_cart" src="img/cart.png">
+						<img class="card_button_add" src="img/add.png">
+					</button>
+				</div>
+			</div>
 		</div>
 
 		<button class="button_products">
