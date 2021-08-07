@@ -1025,6 +1025,7 @@
 .card_box {
     position: relative;
     display: block;
+    margin-bottom: 119px;
 }
 
 .slider_spa {
@@ -1187,6 +1188,32 @@
 }
 
 .like {
-    height: 1289px;
     background-color: white;
+}
+
+.container_like {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 763px;
+}
+
+.like_item {
+    color: #4d4d4d;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.like_item:last-of-type {
+    margin-bottom: 73px;
+}
+
+.like_img {
+    width: 261px;
+    height: 280px;
+    background-color: #e9e9e9;
 }
